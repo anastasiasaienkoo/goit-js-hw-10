@@ -75,37 +75,6 @@ iziToast.error({
 })
 
 
-// form.addEventListener('submit', event => {
-//     event.preventDefault();
-//     delay = input.value;
-//     console.log(delay);
 
-//     radiusbtn.forEach(el => {
-//         if(el.checked){
-//            stateRadiobtn = el.value;
-//         }
-//     });
-
-
-//     const makePromise = ({ delay, stateRadiobtn }) => {
-//         return new Promise((resolve, reject) => {
-//           setTimeout(() => {
-//                   if(stateRadiobtn === 'fulfilled ') {
-//                       resolve(iziToast.show({
-//                         message: '`✅ Fulfilled promise in ${delay}ms`',
-//                         messageSize: '16',
-//                         messageColor: 'white',
-//                         backgroundColor: '#EF4040',
-//                         position: 'topRight',
-//                         width: '302',
-//                         color: 'white',
-//                     }))
-//                   } else {
-//                       reject(value)
-//                   }
-//               }, delay);
-//         });
-//       };
-// });
 
 
