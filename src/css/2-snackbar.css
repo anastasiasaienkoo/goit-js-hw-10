@@ -1,0 +1,94 @@
+
+
+input {
+    display: inline;
+    margin: 0;
+    font-size: 20px;
+    width: 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+fieldset {
+    width: 340px;
+    height: 67px;
+    border-radius: 4px;
+    border-color: #808080;
+    outline: none;
+}
+
+
+
+fieldset:hover {
+    border-color: #000000;
+    outline: none;
+} 
+
+input[type="radio"] {
+    appearance: none; 
+    width: 25px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-left: 40px;
+  }
+  
+  input[type="radio"]:checked {
+    border-color: #4E75FF;
+    background-color: #4E75FF;
+    width: 10px;
+  }
+
+  input[type="number"] {
+    display: block;
+    width: 345px;
+    height: 40px;
+    margin: 0;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    border-color: #808080;
+    outline: none;
+  }
+
+  input[type="number"]:active {
+    outline: none;
+    border-color: #4E75FF;
+  }
+
+
+  input[type="number"]:hover {
+    outline: none;
+    border-color: #000000;
+  }
+
+
+button {
+    margin-top: 24px;
+    width: 370px;
+    height: 40px;
+}
+
+button:hover {
+    background-color: #6C8CFF;
+}
+
+form {
+    margin-left: 156px;
+    margin-top: 36px;
+}
+
+input[name="delay"] {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+input[name="delay"]:focus {
+  border-color: #6c8cff;
+}
