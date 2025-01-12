@@ -92,3 +92,21 @@ input[name="delay"] {
 input[name="delay"]:focus {
   border-color: #6c8cff;
 }
+
+
+.iziToast {
+  display: inline-flex !important;
+  align-items: center !important;
+}
+.error-toast {
+  display: inline-flex;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.iziToast-close {
+  background: url('../img/bi_x-lg.svg') no-repeat 50% 50% !important;
+  border: none !important;
+  cursor: pointer !important;
+  opacity: 1 !important;
+}
