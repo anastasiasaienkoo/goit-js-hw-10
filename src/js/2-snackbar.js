@@ -62,17 +62,6 @@ form.addEventListener('submit', event => {
         });
 });
 
-iziToast.error({
-    title:'Error',
-    titleColor: 'white',
-    message: `Illegal operation`,
-    messageSize: '16p',
-    messageColor: 'white',
-    backgroundColor: '#EF4040',
-    position: 'topRight',
-    width: '383',
-    color: 'white',
-})
 
 
 
