@@ -88,6 +88,10 @@ button.addEventListener('click', (event) => {
     
         if(timeout <= 0) {
             clearInterval(timerInterval);
+            daysEL.textContent = '00';
+            hoursEL.textContent = '00';
+            minutesEL.textContent = '00';
+            secondsEL.textContent = '00';
             return;
         }
     }, 1000);
