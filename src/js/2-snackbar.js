@@ -44,12 +44,13 @@ form.addEventListener('submit', event => {
                 width: '383',
             });
             console.log(`✅ Fulfilled promise in ${delay}ms`);
+            event.target.reset();
         })
         .catch(error => {
             iziToast.error({
                 title:'Error',
                 titleColor: 'white',
-                message: `Illegal operation`,
+                message: `Rejected promise in ${delay}ms`,
                 messageSize: '16p',
                 messageColor: 'white',
                 backgroundColor: '#EF4040',
